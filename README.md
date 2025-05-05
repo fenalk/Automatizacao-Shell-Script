@@ -32,23 +32,23 @@ Os softwares que serão instalados:
 - Instalador-softwares.sh:
 
 ```Bash
-chmod +x Instalador-softwares.sh
+chmod +x Instalador-softwares-flatpak.sh
 ```
 
 - Instalador-r-rstudio.sh:
 ```Bash
-chmod +x Instalador-r-rstudio.sh
+chmod +x Instalador-R-and-RStudio.sh
 ```
 
 2. Execução
 
 - Instalador-softwares.sh:
 ```Bash
-./Instalador-softwares.sh
+./Instalador-softwares-flatpak.sh
 ```
 - Instalador-r-rstudio.sh:
 ```Bash
-./Instalador-r-rstudio.sh
+./Instalador-R-and-RStudio.sh
 ```
 
 ## Contribuições
