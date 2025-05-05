@@ -57,7 +57,9 @@ Críticas construtivas e contribuições são bem-vindas, fique à vontade para 
 ## Referências
 
 [Flathub](https://flathub.org/) 
+
 [JASP](https://jasp-stats.org/) 
+
 [RStudio Desktop](https://posit.co/download/rstudio-desktop/)
 
 # Licença 
