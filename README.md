@@ -5,36 +5,50 @@ Este repositório contém um Shell Script (Bash) projetado para automatizar o pr
 
 ## Funcionalidades
 
-- O script realiza os seguintes operações:
+- São dois scripts que realizam os seguintes operações:
 
-1. Atualizações do sistema;
+1. Atualização dos pacotes do sistema;
 2. Instalações de dependências básicas;
 3. Verificações e instalações de softwares;
 4. Feedback visual ao final dos procedimentos.
 
-- Os softwares que serão instalados:
-    1. GNU PSPP
-    2. Jamovi
-    3. ONLYOFFICE
-    4. Zotero
-    5. PDF Slicer
-    6. JASP
-    7. QGIS Desktop
-    8. R
-    9. RStudio
+Os softwares que serão instalados:
+- GNU PSPP
+- Jamovi
+- ONLYOFFICE
+- Zotero
+- PDF Slicer
+- JASP
+- QGIS Desktop
+- R
+- RStudio
 
 ## Como executar
 
 - Aviso: Este script foi desenvolvido e testado em sistema operacional Linux Mint Mate 20.3 "Una", se for utilizado em outra distribuição Linux, pode não funcionar sem ajustes adicionais ou adaptação do código. 
 
 1. Permissão de execução 
+
+- Instalador-softwares.sh:
+
 ```Bash
-chmod +x instalador.sh
+chmod +x Instalador-softwares.sh
+```
+
+- Instalador-r-rstudio.sh:
+```Bash
+chmod +x Instalador-r-rstudio.sh
 ```
 
 2. Execução
+
+- Instalador-softwares.sh:
 ```Bash
-./instalador.sh
+./Instalador-softwares.sh
+```
+- Instalador-r-rstudio.sh:
+```Bash
+./Instalador-r-rstudio.sh
 ```
 
 ## Contribuições
