@@ -88,6 +88,6 @@ fi
 echo "#---Instalação concluída com sucesso!---#"
 
 echo "#---Limpeza de pacotes não utilizados/cache--#"
-sudo apt autoremove && sudo apt autoclean && sudo apt clean
+sudo apt autoremove -y && sudo apt autoclean && sudo apt clean
 
 echo "#---Operações finalizadas com sucesso!!!---#"                                       
