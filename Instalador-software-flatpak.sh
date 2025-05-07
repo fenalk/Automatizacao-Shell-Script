@@ -23,7 +23,7 @@ sudo apt install -y gnome-software-plugin-flatpak
 echo "#---Adicionando repositório do Flathub---#"
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-#verificar se os softwares estão instalados ou não 
+#verificar se os software estão instalados ou não 
 verificar_software_flatpak() {
     flatpak list --app | grep -q "$1"
 }

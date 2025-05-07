@@ -1,7 +1,7 @@
 # Automatização de Instalações - Shell Script
 
 ## Objetivo
-Este repositório contém um Shell Script (Bash) projetado para automatizar o processo de instalação de softwares e dependências em sistema operacional Linux Mint Mate 20.3 "Una", com foco na padronização dos ambientes dos computadores do laboratório de informática do IFCH-UFPA.
+Este repositório contém um Shell Script (Bash) projetado para automatizar o processo de instalação de software e dependências em sistema operacional Linux Mint Mate 20.3 "Una", com foco na padronização dos ambientes dos computadores do laboratório de informática do IFCH-UFPA.
 
 ## Funcionalidades
 
@@ -9,10 +9,10 @@ Este repositório contém um Shell Script (Bash) projetado para automatizar o pr
 
 1. Atualização dos pacotes do sistema;
 2. Instalações de dependências básicas;
-3. Verificações e instalações de softwares;
+3. Verificações e instalações de software;
 4. Feedback visual ao final dos procedimentos.
 
-Os softwares que serão instalados:
+Os software que serão instalados:
 - GNU PSPP
 - Jamovi
 - ONLYOFFICE
@@ -29,10 +29,10 @@ Os softwares que serão instalados:
 
 1. Permissão de execução 
 
-- Instalador-softwares.sh:
+- Instalador-software-flatpak.sh:
 
 ```Bash
-chmod +x Instalador-softwares-flatpak.sh
+chmod +x Instalador-software-flatpak.sh
 ```
 
 - Instalador-r-rstudio.sh:
@@ -42,9 +42,9 @@ chmod +x Instalador-R-and-RStudio.sh
 
 2. Execução
 
-- Instalador-softwares.sh:
+- Instalador-software-flatpak.sh:
 ```Bash
-./Instalador-softwares-flatpak.sh
+./Instalador-software-flatpak.sh
 ```
 - Instalador-r-rstudio.sh:
 ```Bash
