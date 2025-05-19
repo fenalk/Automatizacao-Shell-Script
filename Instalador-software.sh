@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "#---Atualizando pacotes do sistema linux mint mate 20.3---#"
+echo "#---Atualizando pacotes do sistema---#"
 sudo apt update && sudo apt upgrade -y
 
 echo "#---Instalando Flatpak---#"
