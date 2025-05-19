@@ -20,8 +20,8 @@ Os software que serão instalados:
 - PDF Slicer
 - JASP
 - QGIS Desktop
-<!-- - R
-- RStudio -->
+- R
+- RStudio
 
 ## Como executar
 
@@ -32,24 +32,16 @@ Os software que serão instalados:
 - Instalador-software-flatpak.sh:
 
 ```Bash
-chmod +x Instalador-software-flatpak.sh
+chmod +x Instalador-software.sh
 ```
-<!-- 
-- Instalador-r-rstudio.sh:
-```Bash
-chmod +x Instalador-R-and-RStudio.sh
-``` -->
+
 
 ### 2. Execução do arquivo .sh
 
 - Instalador-software-flatpak.sh:
 ```Bash
-./Instalador-software-flatpak.sh
+./Instalador-software.sh
 ```
-<!-- - Instalador-r-rstudio.sh:
-```Bash
-./Instalador-R-and-RStudio.sh
-``` -->
 
 ## Contribuições
 Críticas construtivas e contribuições são bem-vindas, fique à vontade para abrir issues ou pull requests.
@@ -60,7 +52,7 @@ Críticas construtivas e contribuições são bem-vindas, fique à vontade para 
 
 [JASP](https://jasp-stats.org/) 
 
-<!-- [RStudio Desktop](https://posit.co/download/rstudio-desktop/) -->
+[RStudio Desktop](https://posit.co/download/rstudio-desktop/)
 
 # Licença 
 Este projeto está licenciado sob a MIT License.

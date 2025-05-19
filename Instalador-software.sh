@@ -85,6 +85,32 @@ else
         flatpak install -y flathub org.jaspstats.JASP
 fi
 
+
+verificar_r_e_rstudio() {
+    echo "Verificando se o R está instalado..."
+    if command -v R >/dev/null 2>&1; then
+        echo "R está instalado."
+    else
+        echo "R não está instalado."
+        sudo apt install -y r-core-base
+
+    fi
+
+    echo "Verificando se o RStudio está instalado..."
+    if command -v rstudio >/dev/null 2>&1; then
+        echo "RStudio está instalado."
+    else
+        echo "RStudio não está instalado."
+        wget https://download1.rstudio.org/electron/jammy/amd64/rstudio-2025.05.0-496-amd64.deb
+        sudo apt install -y ./rstudio-2025.05.0-496-amd64.deb
+    
+    fi
+}
+
+# Chama a função para verificar R e Rstudio
+verificar_r_e_rstudio
+
+
 echo "#---Instalação concluída com sucesso!---#"
 
 echo "#---Limpeza de pacotes não utilizados/cache--#"
