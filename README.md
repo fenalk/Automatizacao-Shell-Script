@@ -1,7 +1,7 @@
 # Automatização de Instalações - Shell Script
 
 ## Objetivo
-Este repositório contém um Shell Script (Bash) projetado para automatizar o processo de instalação de software e dependências em sistema operacional Linux Mint Mate 20.2 "Uma", com foco na padronização dos ambientes dos computadores do laboratório de informática do IFCH-UFPA.
+Este repositório contém um Shell Script (Bash) projetado para automatizar o processo de instalação de software e dependências em sistema operacional Linux Mint Xfce 22.1 "Xia", com foco na padronização dos ambientes dos computadores do laboratório de informática do IFCH-UFPA.
 
 ## Funcionalidades
 
@@ -25,7 +25,7 @@ Os software que serão instalados:
 
 ## Como executar
 
-- Aviso: Este script foi desenvolvido e testado em sistema operacional Linux Mint Mate 20.2 "Uma", se for utilizado em outra distribuição Linux, pode não funcionar sem ajustes adicionais ou adaptação do código. 
+- Aviso: Este script foi desenvolvido e testado em sistema operacional Linux Mint Xfce 22.1 "Xia", se for utilizado em outra distribuição Linux, pode não funcionar sem ajustes adicionais ou adaptação do código. 
 
 ### 1. Permissão de execução do arquivo .sh 
 
