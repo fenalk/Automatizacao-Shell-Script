@@ -1,7 +1,7 @@
 # Automatização de Instalações - Shell Script
 
-## Objetivo
-Este repositório contém um Shell Script (Bash) projetado para automatizar o processo de instalação de software e dependências em sistema operacional Linux Mint Xfce 22.1 "Xia", com foco na padronização dos ambientes dos computadores do laboratório de informática do IFCH-UFPA.
+## Início
+Este projeto tem como objetivo facilitar a instalação e configuração de softwares essenciais para o ambiente acadêmico e profissional, automatizando processos por meio de Shell Script. Ele é especialmente útil para usuários que desejam configurar rapidamente seu sistema com ferramentas estatísticas, de produtividade e geoprocessamento, sem a necessidade de instalar manualmente cada programa.
 
 ## Funcionalidades
 
